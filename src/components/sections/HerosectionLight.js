@@ -39,29 +39,34 @@ function Herosection(props) {
           </p>
 
           <ul className="social-icons light list-inline mb-0 mt-4">
+          <li className="list-inline-item">
+              <a href="https://facebook.com/slytherinnn">
+                <i className="fab fa-facebook"></i>
+              </a>
+            </li>
             <li className="list-inline-item">
-              <a href="!#">
+              <a href="https://instagram.com/meokisama">
                 <i className="fab fa-instagram"></i>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="!#">
+              <a href="https://twitter.com/meokiiii">
                 <i className="fab fa-twitter"></i>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="!#">
+              <a href="https://www.behance.net/meokisama">
                 <i className="fab fa-behance"></i>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="!#">
-                <i className="fab fa-dribbble"></i>
+              <a href="https://flickr.com/photos/meokisama/albums">
+                <i className="fab fa-flickr"></i>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="!#">
-                <i className="fab fa-pinterest-p"></i>
+              <a href="https://github.com/meokisama">
+                <i className="fab fa-github"></i>
               </a>
             </li>
           </ul>

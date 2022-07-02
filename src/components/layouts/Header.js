@@ -71,7 +71,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
                 smooth={true}
                 duration={500}
               >
-                <i className="icon-briefcase"></i>Services
+                <i className="icon-briefcase"></i>Skill
               </Link>
             </li>
             <li>

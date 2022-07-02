@@ -81,7 +81,7 @@ function Header3({ light, logoSource, bootstrapNav }) {
                   smooth={true}
                   duration={500}
                 >
-                  Service
+                  Skill
                 </Link>
               </li>
               <li className="nav-item">

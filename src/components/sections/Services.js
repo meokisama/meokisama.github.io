@@ -9,7 +9,7 @@ const servicesData = [
     icon: "images/service-1.svg",
     title: "UI/UX design",
     content:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
+      "Tự học qua mạng chứ không có trường lớp bài bản gì, chỉ là phục vụ mục đích cá nhân mà thôi.",
     color: "#6C6CE5",
     contentColor: "light",
   },
@@ -18,16 +18,16 @@ const servicesData = [
     icon: "images/service-2.svg",
     title: "Web Development",
     content:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
+      "Chủ yếu là Wordpress và NodeJS cùng các thứ liên quan như React, Gatsby.",
     color: "#F9D74C",
     contentColor: "dark",
   },
   {
     id: 3,
     icon: "images/service-3.svg",
-    title: "Photography",
+    title: "Security",
     content:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
+      "Trên trường dạy được những gì thì làm theo được chừng đó, the sadness.",
     color: "#F97B8B",
     contentColor: "light",
   },
@@ -37,7 +37,7 @@ function Services() {
   return (
     <section id="services">
       <div className="container">
-        <Pagetitle title="Services" />
+        <Pagetitle title="Skill" />
         <div className="row fix-spacing">
           {servicesData.map((service) => (
             <div className="col-md-4" key={service.id}>
@@ -47,7 +47,7 @@ function Services() {
         </div>
         <div className="mt-5 text-center">
           <p className="mb-0">
-            Looking for a custom job?{" "}
+            Any questions?{" "}
             <Link
               className="colorpink pointer"
               to="section-contact"
