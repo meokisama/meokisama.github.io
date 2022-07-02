@@ -5,48 +5,41 @@ import Timeline from "../elements/Timeline";
 const educationData = [
   {
     id: 1,
-    title: "Acamedic Degree",
+    title: "Trường ĐH Công nghệ Thông tin",
     years: "2019 - Present",
     content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+      "Theo học chuyên ngành An toàn thông tin tại trường ĐH CNTT, ĐHQG TP.HCM.",
   },
   {
     id: 2,
-    title: "Bachelor’s Degree",
-    years: "2017 - 2013",
+    title: "Trường THPT Anh Sơn I",
+    years: "2016 - 2019",
     content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+      "Giai đoạn thămg trầm đời học sinh được đánh dấu bởi ngôi trường này.",
   },
   {
     id: 3,
-    title: "Honours Degree",
-    years: "2013 - 2009",
+    title: "Mẫu giáo - Tiểu học - THCS",
+    years: "Trước 2016",
     content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+      "Giai đoạn nhân sinh nhàn nhã tẻ nhạt vô vị...",
   },
 ];
 
 const experienceData = [
   {
     id: 1,
-    title: "Web Designer",
-    years: "2019 - Present",
+    title: "Freelancer Designer",
+    years: "2018 - Present",
     content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+      "Học thiết kế để khè người ta là chính chứ kiếm tiền không được bao nhiêu.",
   },
   {
     id: 2,
-    title: "Front-End Developer",
-    years: "2017 - 2013",
+    title: "Thực tập sinh",
+    years: "2022",
     content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
-  },
-  {
-    id: 3,
-    title: "Back-End Developer",
-    years: "2013 - 2009",
-    content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+      "Chuẩn bị bước chân vào đời tự kiếm tiền các thứ, và bước đầu là đi thực tập, the sadness...",
   },
 ];
 

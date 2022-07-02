@@ -63,7 +63,7 @@ function Contact() {
                 animateOut="fadeInOut"
                 animateOnce={true}
               >
-                <h3>Let's talk about everything!</h3>
+                <h3>Nói về mọi thứ trên đời nào!</h3>
               </ScrollAnimation>
               <ScrollAnimation
                 animateIn="fadeInUp"
@@ -71,8 +71,8 @@ function Contact() {
                 animateOnce={true}
               >
                 <p>
-                  Don't like forms? Send me an{" "}
-                  <a href="mailto:name@example.com">email</a>. 👋
+                  Ưu tiên dùng mấy trang xã hội bên trên cùng. Hoặc{" "}
+                  <a href="mailto:meoki@duck.com">email</a>. 👋
                 </p>
               </ScrollAnimation>
             </div>
@@ -148,7 +148,7 @@ function Contact() {
                 value="Submit"
                 className="btn btn-default"
               >
-                Send Message
+                Gửi
               </button>
             </form>
             {handleAlerts()}

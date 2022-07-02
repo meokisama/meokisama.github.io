@@ -6,7 +6,7 @@ import Skill from "../elements/Skill";
 
 const aboutContent = {
   name: "Bolby",
-  avatarImage: "/images/avatar-2.svg",
+  avatarImage: "/images/avatar.png",
   content:
     "Xin chào, đây là portfolio của một thằng sinh viên năm 3 chuyên ngành An toàn thông tin, UIT, ĐHQG HCM. Một con người nhàm chán thích đọc sách (light novel), thích hacking, thích design và thích ngủ.",
 };

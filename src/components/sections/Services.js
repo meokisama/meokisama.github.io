@@ -24,11 +24,11 @@ const servicesData = [
   },
   {
     id: 3,
-    icon: "images/service-3.svg",
+    icon: "images/service-3.png",
     title: "Security",
     content:
       "Trên trường dạy được những gì thì làm theo được chừng đó, the sadness.",
-    color: "#F97B8B",
+    color: "#3CB371",
     contentColor: "light",
   },
 ];
@@ -37,7 +37,7 @@ function Services() {
   return (
     <section id="services">
       <div className="container">
-        <Pagetitle title="Skill" />
+        <Pagetitle title="Skill Set" />
         <div className="row fix-spacing">
           {servicesData.map((service) => (
             <div className="col-md-4" key={service.id}>
@@ -47,7 +47,7 @@ function Services() {
         </div>
         <div className="mt-5 text-center">
           <p className="mb-0">
-            Any questions?{" "}
+            Có câu hỏi nào hông?{" "}
             <Link
               className="colorpink pointer"
               to="section-contact"
@@ -55,9 +55,9 @@ function Services() {
               smooth={true}
               duration={500}
             >
-              Click here
+              Click
             </Link>{" "}
-            to contact me! 👋
+            để liên hệ tớ! 👋
           </p>
         </div>
       </div>

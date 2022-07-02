@@ -32,7 +32,7 @@ function Homepage2Light() {
     <>
       <Header2
         light
-        logoSource="/images/logo-b-dark.svg"
+        logoSource="/images/logo-b-dark.png"
         toggleMenu={toggleMenu}
         headerToggler={headerToggler}
       />
