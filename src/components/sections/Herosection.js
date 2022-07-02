@@ -26,14 +26,16 @@ function Herosection(props) {
         <div className="intro">
           <img src="images/avatar-1.svg" alt="Bolby" className="mb-4" />
 
-          <h1 className="mb-2 mt-0">Bolby Doe</h1>
+          <h1 className="mb-2 mt-0">Hoàng Đình Sáng</h1>
           <p>
-            I'm a{" "}
+            {" "}
             <Typed
               strings={[
-                "UI/UX designer ",
-                "Front-End developer",
-                "Photography lover",
+                "",
+                "Um hay gọi là Meoki cũng được",
+                "Một đứa sinh viên năm 3",
+                "Một tên wibu thân thiện"
+
               ]}
               typeSpeed={80}
               backSpeed={40}
@@ -80,7 +82,7 @@ function Herosection(props) {
               smooth={true}
               duration={500}
             >
-              Hire me
+              Liên hệ
             </Link>
           </div>
         </div>

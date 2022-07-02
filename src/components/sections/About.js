@@ -8,26 +8,26 @@ const aboutContent = {
   name: "Bolby",
   avatarImage: "/images/avatar-2.svg",
   content:
-    "I am Bolby Doe, web developer from London, United Kingdom. I have rich experience in web site design and building and customization, also I am good at WordPress.",
+    "Xin chào, đây là portfolio của một thằng sinh viên năm 3 chuyên ngành An toàn thông tin, UIT, ĐHQG HCM. Một con người nhàm chán thích đọc sách (light novel), thích hacking, thích design và thích ngủ.",
 };
 
 const progressData = [
   {
     id: 1,
-    title: "Development",
-    percantage: 85,
+    title: "Security",
+    percantage: 50,
     progressColor: "#FFD15C",
   },
   {
     id: 2,
     title: "UI/UX Design",
-    percantage: 95,
+    percantage: 65,
     progressColor: "#FF4C60",
   },
   {
     id: 3,
-    title: "Photography",
-    percantage: 70,
+    title: "Light Novel",
+    percantage: 80,
     progressColor: "#6C6CE5",
   },
 ];
@@ -35,26 +35,26 @@ const progressData = [
 const counterData = [
   {
     id: 1,
-    title: "Projects completed",
-    count: 198,
+    title: "Github Repositories",
+    count: 50,
     icon: "icon-fire",
   },
   {
     id: 2,
-    title: "Cup of coffee",
-    count: 5670,
+    title: "UI Projects",
+    count: 4,
     icon: "icon-cup",
   },
   {
     id: 3,
-    title: "Satisfied clients",
-    count: 427,
+    title: "Cuốn novel đã đọc",
+    count: 400,
     icon: "icon-people",
   },
   {
     id: 4,
-    title: "Nominees winner",
-    count: 35,
+    title: "Tiếng ngủ mỗi ngày",
+    count: 9,
     icon: "icon-badge",
   },
 ];

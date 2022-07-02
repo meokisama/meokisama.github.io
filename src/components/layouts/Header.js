@@ -123,7 +123,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
 
         <div className="footer">
           <span className="copyright">
-            &copy; {new Date().getFullYear()} Bolby Template.
+            &copy; {new Date().getFullYear()} Meoki.
           </span>
         </div>
       </header>

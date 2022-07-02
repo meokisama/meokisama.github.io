@@ -1,5 +1,6 @@
 {
-  "name": "bolby",
+  "name": "Meoki",
+  "homepage": "https://meoki.vn",
   "version": "1.0.2",
   "private": true,
   "dependencies": {
@@ -11,6 +12,7 @@
     "bootstrap": "^5.0.2",
     "disqus-react": "^1.1.0",
     "fslightbox-react": "^1.6.2",
+    "gh-pages": "^4.0.0",
     "markdown-to-jsx": "^7.1.3",
     "react": "^17.0.2",
     "react-animate-on-scroll": "^2.1.5",
@@ -31,6 +33,8 @@
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
