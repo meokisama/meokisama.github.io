@@ -6,30 +6,30 @@ import Pagetitle from "../elements/Pagetitle";
 const allBlogs = [
   {
     id: 1,
-    title: "5 Best App Development Tool for Your Project",
-    image: "images/blog/1.svg",
-    filesource: "../../blogs/best-app-development-tool.md",
-    date: "09 February, 2020",
-    author: "Bolby",
-    category: "Reviews",
+    title: "Hiệu ứng cánh bướm với Python",
+    image: "images/blog/1.png",
+    filesource: "../../blogs/hieu-ung-canh-buom-python.md",
+    date: "07 February, 2021",
+    author: "Meoki",
+    category: "Science",
   },
   {
     id: 2,
-    title: "Common Misconceptions About Payment",
-    image: "images/blog/2.svg",
-    filesource: "../../blogs/common-misconceptions-about-payment.md",
-    date: "07 February, 2020",
-    author: "Bolby",
-    category: "Tutorial",
+    title: "Password Đại Cương",
+    image: "images/blog/2.png",
+    filesource: "../../blogs/password-dai-cuong.md",
+    date: "13 January, 2021",
+    author: "Meoki",
+    category: "Hacking",
   },
   {
     id: 3,
-    title: "3 Things To Know About Startup Business",
-    image: "images/blog/3.svg",
-    filesource: "../../blogs/things-to-know-about-startup-business.md",
-    date: "06 February, 2020",
-    author: "Bolby",
-    category: "Business",
+    title: "Design Pattern trong Thiết kế",
+    image: "images/blog/3.png",
+    filesource: "../../blogs/design-pattern-trong-thiet-ke.md",
+    date: "29 November, 2020",
+    author: "Meoki",
+    category: "Design",
   },
 ];
 
@@ -37,7 +37,7 @@ function Blogs() {
   return (
     <section id="blog">
       <div className="container">
-        <Pagetitle title="Latest Posts" />
+        <Pagetitle title="Blog Posts" />
         <div className="row blog-wrapper">
           {allBlogs.map((blogItem) => (
             <div className="col-md-4" key={blogItem.id}>
@@ -47,9 +47,9 @@ function Blogs() {
         </div>
         <div className="text-center">
           <div className="spacer" data-height="30"></div>
-          <Link to="/blogs" className="btn btn-default">
-            Show all blogs
-          </Link>
+          <a href="https://meoki.vn/blog" className="btn btn-default">
+            Tất cả bài viết
+          </a>
         </div>
       </div>
     </section>

@@ -12,7 +12,7 @@ function App() {
         <Route path="/" exact>
           <Homepage2Light />
         </Route>
-        <Route path="/blogs/blog-details/:id/:title" component={BlogDetails} />
+        {/* <Route path="/blogs/blog-details/:id/:title" component={BlogDetails} /> */}
         <Route path="*" component={NotFound} />
       </Switch>
     </BrowserRouter>

@@ -18,20 +18,18 @@ function Blog({ blogData }) {
     >
       <div className="blog-item rounded bg-white shadow-dark">
         <div className="thumb">
-          <a href="!#">
+          <a href="https://meoki.vn/blog">
             <span className="category">{category}</span>
           </a>
-          <Link to={`blogs/blog-details/${id}/${getNospaceTitle(filesource)}`}>
+          <a href={`blog/${getNospaceTitle(filesource)}`}>
             <img src={image} alt="blog-title" />
-          </Link>
+          </a>
         </div>
         <div className="details">
           <h4 className="my-0 title">
-            <Link
-              to={`blogs/blog-details/${id}/${getNospaceTitle(filesource)}`}
-            >
+            <a href={`blog/${getNospaceTitle(filesource)}`}>
               {title}
-            </Link>
+            </a>
           </h4>
           <ul className="list-inline meta mb-0 mt-2">
             <li className="list-inline-item">{date}</li>
