@@ -6,27 +6,27 @@ import Testimonial from "../elements/Testimonial";
 const sliderData = [
   {
     id: 1,
-    avatar: "images/avatar-1.svg",
-    userName: "John Doe",
-    subtitle: "Product designer at Dribbble",
+    avatar: "images/avatar-1.png",
+    userName: "Atsuki Okano",
+    subtitle: "Hajime-chan Ga Ichiban!",
     review:
-      "I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck! 👍",
+      'Không phải là "không được", mà chỉ là "chưa thử" thôi, đúng không ?',
   },
   {
     id: 2,
-    avatar: "images/avatar-2.svg",
-    userName: "John Doe",
-    subtitle: "Product designer at Dribbble",
+    avatar: "images/avatar-2.png",
+    userName: "Machi Tokiwa",
+    subtitle: "Hanayamata",
     review:
-      "I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck! 👍",
+      "Cậu là người duy nhất biết được niềm vui của mình là gì mà, nhưng tớ nghĩ có một người chấp nhận lựa chọn của cậu, cười và khóc cùng cậu, thì đúng là một điều tuyệt vời.",
   },
   {
     id: 3,
-    avatar: "images/avatar-3.svg",
-    userName: "John Doe",
-    subtitle: "Product designer at Dribbble",
+    avatar: "images/avatar-3.png",
+    userName: "Tsurumaru Kuninaga",
+    subtitle: "Touken Ranbu",
     review:
-      "I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck! 👍",
+      "Đã là cuộc sống thì phải có bất ngờ chứ. Nếu mọi chuyện xảy ra đều có thể dự đoán, trái tim tôi sẽ khô héo mà chết trước mất thôi.",
   },
 ];
 
@@ -43,7 +43,7 @@ function Testimonials() {
   return (
     <section id="testimonials">
       <div className="container">
-        <Pagetitle title="Clients & Review" />
+        <Pagetitle title="Quotes" />
         <Slider {...slidetSettings} className="testimonials-wrapper">
           {sliderData.map((slider) => (
             <Testimonial key={slider.id} slider={slider} />

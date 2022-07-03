@@ -10,11 +10,11 @@ const filters = [
   },
   {
     id: 2,
-    text: "creative",
+    text: "script",
   },
   {
     id: 3,
-    text: "art",
+    text: "web",
   },
   {
     id: 4,
@@ -22,108 +22,73 @@ const filters = [
   },
   {
     id: 5,
-    text: "branding",
+    text: "app",
   },
 ];
 
 const allData = [
   {
     id: 1,
-    title: "Project Managment Illustration",
-    category: "art",
-    image: "images/works/1.svg",
-    popupLink: ["images/works/1.svg"],
+    title: "A Lonely Comet - Một anime blog cho những kẻ mộng mơ",
+    category: "web",
+    image: "images/works/01.jpg",
+    link: "https://alonelycomet.meoki.vn",
   },
   {
     id: 2,
-    title: "Guest App Walkthrough Screens",
-    category: "creative",
-    image: "images/works/2.svg",
-    popupLink: [
-      "images/works/2.svg",
-      "images/works/5.svg",
-      "images/works/6.svg",
-    ],
+    title: "BookStore - Cửa hàng bán sách",
+    category: "web",
+    image: "images/works/02.jpg",
+    link: "https://github.com/meokisama/NT230.Store",
   },
   {
     id: 3,
-    title: "Delivery App Wireframe",
-    category: "branding",
-    image: "images/works/3.svg",
-    popupLink: ["https://www.youtube.com/watch?v=qf9z4ulfmYw"],
+    title: "Bilibili Subtitles Downloader",
+    category: "script",
+    image: "images/works/03.jpg",
+    link: "https://github.com/meokisama/bilibili-subs",
   },
   {
     id: 4,
-    title: "Onboarding Motivation",
-    category: "creative",
-    image: "images/works/4.svg",
-    popupLink: [
-      "https://www.youtube.com/watch?v=URVHRhBSjj8",
-      "https://www.youtube.com/watch?v=qf9z4ulfmYw",
-    ],
+    title: "Projects Management",
+    category: "app",
+    image: "images/works/04.jpg",
+    link: "https://github.com/meokisama/ps-manager",
   },
   {
     id: 5,
-    title: "iMac Mockup Design",
-    category: "art",
-    image: "images/works/5.svg",
-    popupLink: ["images/works/5.svg"],
+    title: "Together - Một thứ đã từng lãng mạn",
+    category: "web",
+    image: "images/works/05.jpg",
+    link: "https://meoki.vn/together",
   },
   {
     id: 6,
-    title: "Game Store App Concept",
+    title: "Logo kỉ niệm 10 năm Naruto Manga Fans",
     category: "design",
-    image: "images/works/6.svg",
-    link: "https://dribbble.com",
+    image: "images/works/08.jpg",
+    link: "https://www.behance.net/gallery/132945335/10-year-old-NarutoMangaFans-Logo-Concept",
   },
   {
     id: 7,
-    title: "Project Managment Illustration",
-    category: "art",
-    image: "images/works/3.svg",
-    link: "https://pinterest.com",
+    title: "VSCode Context Menu for Nautilus",
+    category: "script",
+    image: "images/works/07.jpg",
+    link: "https://github.com/meokisama/vscodemenu",
   },
   {
     id: 8,
-    title: "Guest App Walkthrough Screens",
-    category: "design",
-    image: "images/works/1.svg",
-    popupLink: ["images/works/1.svg"],
+    title: "Pathfinding - Tìm đường đi ngắn nhất",
+    category: "web",
+    image: "images/works/06.jpg",
+    link: "https://github.com/meokisama/pathfinding",
   },
   {
     id: 9,
-    title: "Delivery App Wireframe",
-    category: "branding",
-    image: "images/works/4.svg",
-    popupLink: ["images/works/4.svg"],
-  },
-  {
-    id: 10,
-    title: "Game Store App Concept",
+    title: "K51D1 Logo Design",
     category: "design",
-    image: "images/works/6.svg",
-    link: "https://dribbble.com",
-  },
-  {
-    id: 11,
-    title: "Project Managment Illustration",
-    category: "art",
-    image: "images/works/3.svg",
-    link: "https://pinterest.com",
-  },
-  {
-    id: 12,
-    title: "Guest App Walkthrough Screens",
-    category: "design",
-    image: "images/works/1.svg",
-    popupLink: ["images/works/1.svg"],
-  },
-  {
-    id: 13,
-    title: "Delivery App Wireframe",
-    category: "branding",
-    image: "images/works/4.svg",
-    popupLink: ["images/works/4.svg"],
+    image: "images/works/09.jpg",
+    link: "https://www.behance.net/gallery/98781675/Point-Of-Sales-Material",
   },
 ];
 
@@ -222,10 +187,10 @@ function Works() {
             disabled={noMorePost ? "disabled" : null}
           >
             {noMorePost ? (
-              "No more items"
+              "Hết rồi"
             ) : (
               <span>
-                <i className="fas fa-spinner"></i> Load more
+                <i className="fas fa-spinner"></i> Xem thêm
               </span>
             )}
           </button>
