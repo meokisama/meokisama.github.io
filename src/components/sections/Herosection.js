@@ -47,7 +47,7 @@ function Herosection(props) {
           </p>
 
           <ul className="social-icons light list-inline mb-0 mt-4">
-          <li className="list-inline-item">
+            <li className="list-inline-item">
               <a href="https://facebook.com/slytherinnn">
                 <i className="fab fa-facebook"></i>
               </a>
@@ -92,7 +92,7 @@ function Herosection(props) {
           </div>
         </div>
 
-        <div className="scroll-down">
+        {/* <div className="scroll-down">
           <Link
             to="section-about"
             spy={true}
@@ -105,7 +105,7 @@ function Herosection(props) {
               <span className="wheel"></span>
             </span>
           </Link>
-        </div>
+        </div> */}
 
         <div className="parallax" data-relative-input="true">
           <svg
