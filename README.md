@@ -1,4 +1,24 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="https://meoki.vn">
+    <img src="https://raw.githubusercontent.com/meokisama/meoki-portfolio/develop/content/favicon.png" />
+  </a>
+</p>
+
+<h2 align="center"> Meoki Portfolio </h2>
+
+<h4 align="center"> A modern one-page portfolio with a clean yet expressive design. </h4>
+
+<p align="center">
+  <a href="https://github.com/meokisama/meokisama.github.io/blob/develop/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg"/>
+  </a>
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"/>
+  <a href="https://twitter.com/intent/follow?screen_name=meokiiii">
+    <img src="https://img.shields.io/twitter/follow/meokiiii.svg?label=Follow%20@meokiiii"/>
+  </a>
+</p>
+
+*This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).*
 
 ## Available Scripts
 
@@ -66,3 +86,14 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+## Find me around the web 🌎
+
+<a href="https://facebook.com/slytherinnn/"><img align="left" width="150" height="150" src="https://github.com/meokisama/meokisama/blob/master/image/2750554.png"> </a>
+
+- Information in public on <a href="https://meoki.vn/">**Blog**</a> ✍🏾
+- Sharing updates on <a href="https://facebook.com/slytherinnn/">**Facebook**</a> 💼
+- Other products on <a href="https://www.behance.net/meokisama">**Behance**</a> 🏓
+- Daily photos on <a href="https://www.instagram.com/hi.im.meoki/">**Instagram**</a> 📷
+- "Wibu" collection on <a href="https://www.flickr.com/photos/meokisama/albums">**Flickr**</a> 👾
