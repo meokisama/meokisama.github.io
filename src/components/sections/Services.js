@@ -9,7 +9,7 @@ const servicesData = [
     icon: "images/service-1.svg",
     title: "UI/UX design",
     content:
-      "Tự học qua mạng chứ không có trường lớp bài bản gì, chỉ là phục vụ mục đích cá nhân mà thôi.",
+      "Tự học chứ không có trường lớp bài bản gì, chỉ là phục vụ mục đích cá nhân mà thôi.",
     color: "#6C6CE5",
     contentColor: "light",
   },

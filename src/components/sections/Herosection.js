@@ -33,7 +33,7 @@ function Herosection(props) {
               strings={[
                 "",
                 "Um hay gọi là Meoki cũng được",
-                "Một đứa sinh viên năm 3",
+                "Một đứa sinh viên năm 4",
                 "Một tên wibu thân thiện"
 
               ]}

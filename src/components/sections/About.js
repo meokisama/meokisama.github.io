@@ -8,7 +8,7 @@ const aboutContent = {
   name: "Bolby",
   avatarImage: "/images/avatar.png",
   content:
-    "Xin chào, đây là portfolio của một thằng sinh viên năm 3 chuyên ngành An toàn thông tin, UIT, ĐHQG HCM. Một con người nhàm chán thích đọc sách (light novel), thích hacking, thích design và thích ngủ.",
+    "Xin chào, đây là portfolio của một thằng sinh viên năm 4 chuyên ngành An toàn thông tin, UIT, ĐHQG HCM. Một con người nhàm chán thích đọc sách (light novel), thích hacking, thích design và thích ngủ.",
 };
 
 const progressData = [
@@ -21,13 +21,13 @@ const progressData = [
   {
     id: 2,
     title: "UI/UX Design",
-    percantage: 65,
+    percantage: 75,
     progressColor: "#FF4C60",
   },
   {
     id: 3,
-    title: "Light Novel",
-    percantage: 80,
+    title: "Dev",
+    percantage: 70,
     progressColor: "#6C6CE5",
   },
 ];
@@ -35,26 +35,26 @@ const progressData = [
 const counterData = [
   {
     id: 1,
-    title: "Github Repositories",
+    title: "Github Repos",
     count: 50,
     icon: "icon-fire",
   },
   {
     id: 2,
-    title: "UI Projects",
+    title: "Web Projects",
     count: 4,
     icon: "icon-cup",
   },
   {
     id: 3,
-    title: "Cuốn novel đã đọc",
-    count: 400,
+    title: "Design Projects",
+    count: 10,
     icon: "icon-people",
   },
   {
     id: 4,
-    title: "Tiếng ngủ mỗi ngày",
-    count: 9,
+    title: "Novel Read",
+    count: 400,
     icon: "icon-badge",
   },
 ];
