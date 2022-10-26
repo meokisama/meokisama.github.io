@@ -32,7 +32,7 @@ function Herosection(props) {
             <Typed
               strings={[
                 "",
-                "Um hay gọi là Meoki cũng được",
+                "A Light Novel Readaholic Soldier",
                 "Một đứa sinh viên năm 4",
                 "Một tên wibu thân thiện"
 
