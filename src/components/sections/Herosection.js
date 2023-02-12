@@ -33,8 +33,8 @@ function Herosection(props) {
               strings={[
                 "",
                 "A Light Novel Readaholic Soldier",
-                "Một đứa sinh viên năm 4",
-                "Một tên wibu thân thiện"
+                "A Fresher Cyber Security Engineer",
+                "A Chummy Wibu Comes From Fairy Tales"
 
               ]}
               typeSpeed={80}

@@ -50,10 +50,10 @@ const allData = [
   },
   {
     id: 4,
-    title: "Projects Management",
+    title: "CTF Platform With Python Django",
     category: "app",
     image: "images/works/04.jpg",
-    link: "https://github.com/meokisama/ps-manager",
+    link: "https://github.com/meokisama/DjangoCTF",
   },
   {
     id: 5,

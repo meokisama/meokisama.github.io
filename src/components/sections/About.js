@@ -15,7 +15,7 @@ const progressData = [
   {
     id: 1,
     title: "Security",
-    percantage: 50,
+    percantage: 60,
     progressColor: "#FFD15C",
   },
   {
@@ -54,7 +54,7 @@ const counterData = [
   {
     id: 4,
     title: "Novel Read",
-    count: 400,
+    count: 600,
     icon: "icon-badge",
   },
 ];

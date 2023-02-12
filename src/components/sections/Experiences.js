@@ -6,7 +6,7 @@ const educationData = [
   {
     id: 1,
     title: "Trường ĐH Công nghệ Thông tin",
-    years: "2019 - Present",
+    years: "2019 - 2023",
     content:
       "Theo học chuyên ngành An toàn thông tin tại trường ĐH CNTT, ĐHQG TP.HCM.",
   },
@@ -15,32 +15,34 @@ const educationData = [
     title: "Trường THPT Anh Sơn I",
     years: "2016 - 2019",
     content:
-      "Giai đoạn thămg trầm đời học sinh được đánh dấu bởi ngôi trường này.",
+      "Lên voi xuống chó...",
   },
   {
     id: 3,
     title: "Mẫu giáo - Tiểu học - THCS",
     years: "Trước 2016",
     content:
-      "Giai đoạn nhân sinh nhàn nhã tẻ nhạt vô vị...",
+      "Nhân sinh nhàn nhã...",
   },
 ];
 
 const experienceData = [
   {
     id: 1,
+    title: "Thực tập sinh CSE",
+    years: "2022",
+    content:
+      "Bắt đầu với vị trí Cyber Security Engineer Intern (GPT Group, HCM City), the sadness...",
+  },
+
+  {
+    id: 2,
     title: "Freelancer Designer",
-    years: "2018 - Present",
+    years: "2018 - 2022",
     content:
       "Học thiết kế để khè người ta là chính chứ kiếm tiền không được bao nhiêu.",
   },
-  {
-    id: 2,
-    title: "Thực tập sinh",
-    years: "2022",
-    content:
-      "Chuẩn bị bước chân vào đời tự kiếm tiền các thứ, và bước đầu là đi thực tập, the sadness...",
-  },
+
 ];
 
 function Experiences() {
