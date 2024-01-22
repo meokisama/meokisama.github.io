@@ -9,6 +9,10 @@
     src: url('font/OpenSans-ExtraBold.ttf');
 }
 
+body {
+  background-color: #e0dacd;
+}
+
 #world {
   background: #e0dacd;
   position:absolute;
@@ -18,22 +22,13 @@
 }
 #instructions{
   position:absolute;
-  display: block;
-  max-width:100%;
+  width:100%;
   top:55%;
-  padding: 0 150px;
   margin-top:50px;
-  margin-right: 40px;
   font-family:'Open Sans', sans-serif;
   color:#b75505;
   font-size: 3rem;
   text-align : center;
-}
-.lightInstructions {
-  color:#b59b63;
-  font-size:2.0rem;
-  font-family: "Playfair Display";
-  font-weight: 600;
 }
 
 #credits{
@@ -50,4 +45,35 @@
 }
 #credits a {
   color:#b59b63;
+}
+
+.bg {
+  z-index: -1;
+}
+
+#textContent {
+  background: transparent;
+  position: absolute;
+  top: 67%;
+  z-index: 2;
+  color:#b59b63;
+  font-size:2.0rem;
+  font-family: "Playfair Display";
+  font-weight: 600;
+  max-width: 100vw;
+  padding: 0 20%;
+  line-height: 3rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 1500px) {
+  #textContent {
+    padding: 0 31%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #textContent {
+    padding: 0 10%;
+  }
 }
