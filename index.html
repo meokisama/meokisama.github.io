@@ -3,29 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <title>hehe boys</title>
+  <link rel="icon" href="https://raw.githubusercontent.com/meokisama/meokisama.github.io/gh-pages/favicon.ico"/>
   <link rel="stylesheet" href="css/reset.min.css">
-<link rel="stylesheet" href="css/style.css">
-
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <div id="world"></div>
-
 <div id="instructions">^<br/>Move the head of this bird<br/><span class="lightInstructions">and watch how the 2 others<br/>interact with him</span></div>
-
-<!--
-<div id="credits">
-  <p> <a href="https://codepen.io/Yakudoo/"  target="blank">my other codepens</a> | <a href="https://www.epic.net" target="blank">epic.net</a></p>
-</div>
--->
-
-<!-- partial -->
 <script src="js/three.min.js"></script>
 <script src="js/TweenMax.min.js"></script>
 <script src="js/OrbitControls.js"></script>
 <script src="js/script.js"></script>
-
- <script type="text/javascript">
-
+<script type="text/javascript">
     function UpdateClock() {
     var time = new Date();
     var Hour = time.getHours() % 12 ? time.getHours() % 12 : 12;
@@ -38,13 +27,10 @@
     var timeText = Hour +":"+ Minute +":"+ Second;
     clock.innerHTML = timeText+"<br/><span class='lightInstructions'></span>";
     clock.setAttribute("data-text",timeText);
-
-    // var bottomText = time.getDate() + "/" + (time.getMonth() + 1) + "/" + time.getFullYear();
     var bottomText = "Trang này chỉ có thông tin cá nhân và tôi sẽ tạm ẩn đi trong thời gian diễn ra sự kiện để né những nhân tố đã tìm được tới đây bởi sự thúc đẩy của trí tò mò, như bạn!";
     var txt2 = document.querySelector('.lightInstructions');
     txt2.innerText=bottomText;
     txt2.setAttribute("data-text",bottomText);
-
     setTimeout(UpdateClock, 1000);
     }
     UpdateClock();
