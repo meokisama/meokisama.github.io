@@ -1,0 +1,14 @@
+{
+  "AppVersion": "0.9.6.0",
+  "Title": "Paranoid Birds",
+  "Thumbnail": "lively_t.jpg",
+  "Preview": "lively_p.gif",
+  "Desc": "Move the head of this bird and see how the other 2 interact with him.",
+  "Author": "Karim Maaloul",
+  "License": null,
+  "Contact": "https://codepen.io/Yakudoo/pen/LVyJXw",
+  "Type": 1,
+  "FileName": "index.html",
+  "Arguments": null,
+  "IsAbsolutePath": false
+}
