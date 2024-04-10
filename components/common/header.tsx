@@ -1,9 +1,3 @@
-// Copyright Ayush Singh 2021,2022. All Rights Reserved.
-// Project: folio
-// Author contact: https://www.linkedin.com/in/alphaayush/
-// This file is licensed under the MIT License.
-// License text available at https://opensource.org/licenses/MIT
-
 import Image from "next/image";
 import { useState } from "react";
 import Menu from "@/components/common/menu";
@@ -15,12 +9,7 @@ const Header = () => {
     <header className="w-full fixed top-0 py-8 select-none z-50 bg-gradient-to-b from-gray-900 to-transparent">
       <div className="flex justify-between section-container">
         <a href="#home" className="link">
-          <Image
-            src="/logo.svg"
-            alt="Logo - Ayush Singh"
-            width={22}
-            height={22}
-          />
+          {/* <Image src="/logo.svg" alt="" width={22} height={22} /> */}
         </a>
         <nav className={`outer-menu ${menuVisible ? "menu-visible" : ""}`}>
           <button

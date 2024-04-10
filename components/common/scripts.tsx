@@ -1,9 +1,3 @@
-// Copyright Ayush Singh 2021,2022. All Rights Reserved.
-// Project: folio
-// Author contact: https://www.linkedin.com/in/alphaayush/
-// This file is licensed under the MIT License.
-// License text available at https://opensource.org/licenses/MIT
-
 import Script from "next/script";
 import React from "react";
 import { GTAG } from "../../constants";
@@ -24,7 +18,7 @@ const Scripts = React.memo(() => {
             gtag('config', '${GTAG}');
         `}
       </Script>
-      <Script strategy="lazyOnload" id="chaport-config">
+      {/* <Script strategy="lazyOnload" id="chaport-config">
         {`
             setTimeout(() => {
                 (function (w, d, v3) {
@@ -36,7 +30,7 @@ const Scripts = React.memo(() => {
                 })(window, document);
             }, 15000);
         `}
-      </Script>
+      </Script> */}
     </>
   );
 });

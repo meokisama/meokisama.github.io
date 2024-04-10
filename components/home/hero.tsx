@@ -1,9 +1,3 @@
-// Copyright Ayush Singh 2021,2022. All Rights Reserved.
-// Project: folio
-// Author contact: https://www.linkedin.com/in/alphaayush/
-// This file is licensed under the MIT License.
-// License text available at https://opensource.org/licenses/MIT
-
 import { EMAIL, MENULINKS, SOCIAL_LINKS, TYPED_STRINGS } from "../../constants";
 import React, { MutableRefObject, useEffect, useRef } from "react";
 import Typed from "typed.js";
@@ -75,7 +69,7 @@ const HeroSection = React.memo(() => {
         rel="noreferrer"
         target="_blank"
       >
-        <Image src={`/social/${el}.svg`} alt={el} width={40} height={40} />
+        <Image src={`/social/${el}.svg`} alt={el} width={30} height={30} />
       </a>
     ));
 
@@ -83,14 +77,16 @@ const HeroSection = React.memo(() => {
     <div className={HERO_STYLES.CONTENT}>
       <div className="md:mb-4 mb-2">
         <h2 className="text-4xl seq">Hello 👋🏻</h2>
-        <h1 className="text-3xl seq">I am Ayush Singh</h1>
+        <h1 className="text-3xl seq">
+          I am <span className="font-semibold">Sang Hoang</span>!
+        </h1>
       </div>
-      <p className="mb-4">
+      <p className="mb-8">
         <span className={HERO_STYLES.TYPED_SPAN} ref={typedSpanElement}></span>
       </p>
       <div className="flex seq mb-5">{renderSocialLinks()}</div>
       <div className="flex seq">
-        <Button
+        {/* <Button
           classes="mr-3"
           type={ButtonTypes.OUTLINE}
           name="Resume"
@@ -99,12 +95,12 @@ const HeroSection = React.memo(() => {
             rel: "noreferrer",
           }}
           href="/Ayush_Resume.pdf"
-        ></Button>
+        ></Button> */}
         <Button
-          classes="ml-3"
+          // classes="ml-3"
           type={ButtonTypes.PRIMARY}
           name="Let's Talk"
-          href={SOCIAL_LINKS.topmate}
+          href={SOCIAL_LINKS.discord}
           otherProps={{
             target: "_blank",
             rel: "noreferrer",

@@ -1,9 +1,3 @@
-// Copyright Ayush Singh 2021,2022. All Rights Reserved.
-// Project: folio
-// Author contact: https://www.linkedin.com/in/alphaayush/
-// This file is licensed under the MIT License.
-// License text available at https://opensource.org/licenses/MIT
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -30,7 +24,7 @@
 
 body {
   @apply bg-gray-900 text-white overflow-x-hidden;
-  cursor: none;
+  // cursor: none;
 }
 
 html {
@@ -75,7 +69,7 @@ html {
 }
 
 a {
-  cursor: none !important;
+  // cursor: none !important;
 }
 
 .typed-cursor {
@@ -231,14 +225,15 @@ a {
 }
 
 footer {
-  background: url("/footer-bg.svg"),
-    linear-gradient(
-      153.86deg,
-      #02494c 0%,
-      #016877 15.69%,
-      #0d576d 48.9%,
-      #004865 95.52%
-    );
+  // background: url("/footer-bg.svg"),
+  //   linear-gradient(
+  //     153.86deg,
+  //     #02494c 0%,
+  //     #016877 15.69%,
+  //     #0d576d 48.9%,
+  //     #004865 95.52%
+  //   );
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 
 .section-heading {

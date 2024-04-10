@@ -1,9 +1,3 @@
-// Copyright Ayush Singh 2021,2022. All Rights Reserved.
-// Project: folio
-// Author contact: https://www.linkedin.com/in/alphaayush/
-// This file is licensed under the MIT License.
-// License text available at https://opensource.org/licenses/MIT
-
 import { METADATA } from "../constants";
 import Head from "next/head";
 import React, { useEffect, useState } from "react";
@@ -14,7 +8,7 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import Layout from "@/components/common/layout";
 import Header from "@/components/common/header";
 import ProgressIndicator from "@/components/common/progress-indicator";
-import Cursor from "@/components/common/cursor";
+// import Cursor from "@/components/common/cursor";
 import HeroSection from "@/components/home/hero";
 import ProjectsSection from "@/components/home/projects";
 import QuoteSection from "@/components/home/quote";
@@ -76,7 +70,7 @@ export default function Home() {
       <Layout>
         <Header />
         <ProgressIndicator />
-        <Cursor isDesktop={isDesktop} />
+        {/* <Cursor isDesktop={isDesktop} /> */}
         <main className="flex-col flex">
           {renderBackdrop()}
           <HeroSection />
