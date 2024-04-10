@@ -64,7 +64,7 @@ const AboutSection = () => {
         }`}
       >
         An adventurous soul fueled by curiosity and driven to explore the
-        world's endless possibilities.{" "}
+        world&apos;s endless possibilities.{" "}
       </span>
       <span
         className={`about-2 leading-tight ${
