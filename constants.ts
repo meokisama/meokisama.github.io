@@ -1,7 +1,7 @@
 export const METADATA = {
   title: "Portfolio | Meoki",
   description:
-    "I bridge the gap between design and development. I take responsibility to craft an aesthetic user experience using modern frontend architecture.",
+    "An adventurous soul fueled by curiosity and driven to explore the world's endless possibilities. I find joy in exploring wonders and talking with diverse people.",
   siteUrl: "https://meoki.vn/",
 };
 
@@ -60,8 +60,8 @@ export const PROJECTS: IProject[] = [
     name: "Vietnam Light Novel Ranking",
     image: "/projects/ranking.jpg",
     blurImage: "/projects/blur/ranking-blur.jpg",
-    description: "Voting platform for Vietnam Light Novel Ranking",
-    gradient: ["#fd7692", "#f77962"],
+    description: "Voting platform for Vietnam Light Novel Ranking.",
+    gradient: ["#9e444c", "#f77962"],
     url: "https://meoki.vn/ranking",
     tech: ["react", "gsap", "figma"],
   },
@@ -69,7 +69,7 @@ export const PROJECTS: IProject[] = [
     name: "Raw Ranobe Reader",
     image: "/projects/3r.jpg",
     blurImage: "/projects/blur/3r-blur.jpg",
-    description: "Sharing raw japanese light novel for reading purpose",
+    description: "Sharing raw japanese light novel for reading purpose.",
     gradient: ["#1c1c1c", "#2c2c2c"],
     url: "https://meoki.vn/sharing",
     tech: ["html", "javascript", "css"],
@@ -78,7 +78,7 @@ export const PROJECTS: IProject[] = [
     name: "Light Novel Giveaway Booster",
     image: "/projects/gabooster.jpg",
     blurImage: "/projects/blur/gabooster-blur.jpg",
-    description: "Morden landing page for Giveaway Booster event",
+    description: "Morden landing page for Giveaway Booster event.",
     gradient: ["#3c7096", "#ffffff"],
     url: "https://meoki.vn/ga",
     tech: ["react", "sass", "figma"],
@@ -87,10 +87,39 @@ export const PROJECTS: IProject[] = [
     name: "Capture The Flag Platform",
     image: "/projects/ctf.jpg",
     blurImage: "/projects/blur/ctf-blur.jpg",
-    description: "CTF platform with clean expressive design built with Django",
+    description: "CTF platform with clean expressive design built with Django.",
     gradient: ["#212529", "#8b9eff"],
     url: "https://github.com/meokisama/DjangoCTF",
     tech: ["python", "django", "figma"],
+  },
+  {
+    name: "A Lonely Comet",
+    image: "/projects/comet.jpg",
+    blurImage: "/projects/blur/comet-blur.jpg",
+    description:
+      "Anime-manga-lightnovel blog of some wibus come from the fairy tales.",
+    gradient: ["#003322", "#01cc87"],
+    url: "https://alonelycomet.meoki.vn",
+    tech: ["javascript", "gulp", "figma"],
+  },
+  {
+    name: "Bilibili Subtitles",
+    image: "/projects/srt.jpg",
+    blurImage: "/projects/blur/srt-blur.jpg",
+    description: "Small tool to convert Bilibili Subtitles (JSON) to srt.",
+    gradient: ["#3c7096", "#ffffff"],
+    url: "https://meoki.vn/bilibili-subs",
+    tech: ["javascript", "html", "css"],
+  },
+  {
+    name: "VSCode Context Menu",
+    image: "/projects/vscode.jpg",
+    blurImage: "/projects/blur/vscode-blur.jpg",
+    description:
+      "Provide Visual Studio Code extension to context menu for Nautilus.",
+    gradient: ["#0f1c3c", "#b35089"],
+    url: "https://github.com/meokisama/vscodemenu",
+    tech: ["javascript", "gulp", "npm"],
   },
   {
     name: "Python Reinforcement Learning",
@@ -109,6 +138,8 @@ export const SKILLS = {
     "react",
     "redux",
     "next",
+    "vite",
+    "antdesign",
     "gsap",
     "tailwind",
     "sass",
@@ -116,7 +147,7 @@ export const SKILLS = {
     "css",
   ],
   userInterface: ["figma", "illustrator", "photoshop"],
-  other: ["git", "lightroom", "aftereffects"],
+  other: ["git", "lightroom", "aftereffects", "gulp", "sketch"],
 };
 
 export enum Branch {

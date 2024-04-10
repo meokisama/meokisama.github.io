@@ -55,8 +55,12 @@ const HeroSection = React.memo(() => {
   }, [typedSpanElement, targetSection]);
 
   const renderBackgroundImage = (): React.ReactNode => (
-    <div className={HERO_STYLES.BG_WRAPPER} style={{ maxHeight: "650px" }}>
-      <HeroImage />
+    <div
+      className={HERO_STYLES.BG_WRAPPER}
+      style={{ maxHeight: "650px", display: "flex", justifyContent: "right" }}
+    >
+      {/* <HeroImage /> */}
+      <img style={{ maxHeight: "950px" }} src="/log-in-girl.svg" alt="" />
     </div>
   );
 
@@ -78,7 +82,19 @@ const HeroSection = React.memo(() => {
       <div className="md:mb-4 mb-2">
         <h2 className="text-4xl seq">Hello 👋🏻</h2>
         <h1 className="text-3xl seq">
-          I am <span className="font-semibold">Sang Hoang</span>!
+          I am{" "}
+          <span
+            className="font-semibold"
+            style={{
+              background:
+                "linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%), #FBC2EB",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+            }}
+          >
+            Sang Hoang
+          </span>
+          !
         </h1>
       </div>
       <p className="mb-8">
