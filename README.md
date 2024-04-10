@@ -1,10 +1,22 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<p align="center">
+  <a href="https://meoki.vn">
+    <img src="https://raw.githubusercontent.com/meokisama/meoki-portfolio/develop/content/favicon.png" />
+  </a>
+</p>
 
-## FOLIO
+<h2 align="center"> Meoki Portfolio </h2>
 
-[Live Demo](https://ayushsingh.co.in/)
+<h4 align="center"> A modern one-page portfolio with a clean yet expressive design. </h4>
 
-To cater to my goal of having my own portfolio website since 2016 🚀
+<p align="center">
+  <a href="https://github.com/meokisama/meokisama.github.io/blob/develop/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg"/>
+  </a>
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"/>
+  <a href="https://twitter.com/intent/follow?screen_name=meokiiii">
+    <img src="https://img.shields.io/twitter/follow/meokiiii.svg?label=Follow%20@meokiiii"/>
+  </a>
+</p>
 
 ## How did I create this?
 
@@ -25,11 +37,4 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Forked Versions from Community
-
-Vue JS implemetation by sjtuli: [filio-vue](https://github.com/sjtuli/filio-vue)
-Same template with a slightly different flavor by shubh73: [devfolio](https://github.com/shubh73/devfolio)
-
-## A note on re-sharing
-
-I have been refining the project using 7+ years of my learnings. While I appreciate the beauty of open source, due credits to the project will be appreciated if you plan to re-share the template. Copyright headers with author name should be included under the forked versions as well. Happy coding :)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
