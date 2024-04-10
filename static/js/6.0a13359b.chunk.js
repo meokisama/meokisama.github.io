@@ -1,2 +1,0 @@
-(this.webpackJsonpMeoki=this.webpackJsonpMeoki||[]).push([[6],{98:function(i,t,s){"use strict";s.r(t),t.default=s.p+"static/media/syntax-highlighting-gatsby.38b55a20.md"}}]);
-//# sourceMappingURL=6.0a13359b.chunk.js.map
