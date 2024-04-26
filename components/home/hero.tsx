@@ -55,12 +55,9 @@ const HeroSection = React.memo(() => {
   }, [typedSpanElement, targetSection]);
 
   const renderBackgroundImage = (): React.ReactNode => (
-    <div
-      className={HERO_STYLES.BG_WRAPPER}
-      style={{ maxHeight: "650px", display: "flex", justifyContent: "right" }}
-    >
-      {/* <HeroImage /> */}
-      <img style={{ maxHeight: "950px" }} src="/log-in-girl.svg" alt="" />
+    <div className={HERO_STYLES.BG_WRAPPER} style={{ maxHeight: "650px" }}>
+      <HeroImage />
+      {/* <img style={{ maxHeight: "950px" }} src="/log-in-girl.svg" alt="" /> */}
     </div>
   );
 
@@ -116,7 +113,7 @@ const HeroSection = React.memo(() => {
           // classes="ml-3"
           type={ButtonTypes.PRIMARY}
           name="Let's Talk"
-          href={SOCIAL_LINKS.discord}
+          href={SOCIAL_LINKS.facebook}
           otherProps={{
             target: "_blank",
             rel: "noreferrer",

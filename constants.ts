@@ -29,8 +29,8 @@ export const MENULINKS = [
 ];
 
 export const TYPED_STRINGS = [
-  "I design dreams into masterpieces",
   "I design innovation, pixel by pixel",
+  "I design dreams into masterpieces",
   "I design journeys that tell stories",
 ];
 
